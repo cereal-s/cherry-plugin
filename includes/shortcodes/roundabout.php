@@ -71,7 +71,7 @@ if ( !function_exists( 'shortcode_roundabout' ) ) {
 		);
 		*/
 
-		$args = require_once './args.php';
+		$args = require_once __DIR__ . '/args.php';
 		$args['orderby'] 				= 'post_date';
 		$args['order'] 	 				= 'DESC';
 		$args['posts_per_page'] = -1;

@@ -72,7 +72,7 @@ if ( !function_exists('shortcode_carousel') ) {
 
 					global $post; // very important
 
-					$args = require_once './args.php';
+					$args = require_once __DIR__ . '/args.php';
 					$args['orderby'] = 'post_date';
 					$args['order'] 	 = 'DESC';
 

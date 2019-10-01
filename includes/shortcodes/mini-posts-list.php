@@ -87,7 +87,7 @@ if (!function_exists('mini_posts_list_shortcode')) {
 			);
 			*/
 
-			$args = require_once './args.php';
+			$args = require_once __DIR__ . '/args.php';
 			$posts = get_posts($args);
 			$i = 0;
 

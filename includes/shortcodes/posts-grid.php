@@ -90,7 +90,7 @@ if (!function_exists('posts_grid_shortcode')) {
 
       // WPML filter
       $suppress_filters = get_option('suppress_filters');
-      $args = require_once './args.php';
+      $args = require_once __DIR__ . '/args.php';
       $posts = get_posts( $args );
 
       if ( empty( $posts ) ) {
