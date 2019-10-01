@@ -8,6 +8,7 @@ if (!function_exists('mini_posts_list_shortcode')) {
 	function mini_posts_list_shortcode( $atts, $content = null, $shortcodename = '' ) {
 		extract(shortcode_atts(array(
 			'type'          => 'post',
+			'category'			=> '',
 			'numb'          => '3',
 			'thumbs'        => '',
 			'thumb_width'   => '',

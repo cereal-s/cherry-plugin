@@ -8,6 +8,7 @@ if (!function_exists('posts_list_shortcode')) {
 	function posts_list_shortcode( $atts, $content = null, $shortcodename = '' ) {
 		extract(shortcode_atts(array(
 			'type'         => 'post',
+			'category'     => '',
 			'thumbs'       => '',
 			'thumb_width'  => '',
 			'thumb_height' => '',
@@ -66,9 +67,8 @@ if (!function_exists('posts_list_shortcode')) {
 			'suppress_filters' => $suppress_filters
 		);
 		*/
-
+	
 		$args = require_once __DIR__ . '/args.php';
-
 		$posts = get_posts($args);
 		$i = 0;
 
