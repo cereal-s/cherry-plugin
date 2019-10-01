@@ -9,6 +9,7 @@ if (!function_exists('posts_list_shortcode')) {
 		extract(shortcode_atts(array(
 			'type'         => 'post',
 			'category'     => '',
+			'custom_category'  => '',
 			'thumbs'       => '',
 			'thumb_width'  => '',
 			'thumb_height' => '',
