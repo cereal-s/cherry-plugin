@@ -3,6 +3,10 @@ Cherry Plugin
 
 Cherry Plugin contains all shortcodes and widgets used in Cherry Framework. Also Cherry Framework Import/Export features are also added by Cherry plugin.
 
+#### v1.2.8.3 ####
+
+* ADD: changing types of posts selected by the shortcodes, from post to projectpage, see: https://wordpress.org/plugins/project-pages/
+
 #### v1.2.8.2 ####
 
 * FIX: `[google_map_ap]` shortcode
