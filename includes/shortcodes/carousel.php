@@ -7,6 +7,7 @@ if ( !function_exists('shortcode_carousel') ) {
 		extract( shortcode_atts( array(
 			'title'            => '',
 			'num'              => 8,
+			'numb'						 => 8,
 			'type'             => 'post',
 			'thumb'            => 'true',
 			'thumb_width'      => 220,

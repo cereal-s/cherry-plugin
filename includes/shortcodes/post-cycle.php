@@ -7,7 +7,7 @@ if (!function_exists('shortcode_post_cycle')) {
 
 	function shortcode_post_cycle( $atts, $content = null, $shortcodename = '' ) {
 		extract(shortcode_atts(array(
-				'num'              => '5',
+				'numb'              => '5',
 				'type'             => 'post',
 				'meta'             => '',
 				'effect'           => 'slide',

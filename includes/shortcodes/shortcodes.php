@@ -11,6 +11,7 @@ if (!function_exists('shortcode_recent_posts')) {
 				'custom_tag'       => '',
 				'post_format'      => 'standard',
 				'num'              => '5',
+				'numb'						 => '5',
 				'meta'             => 'true',
 				'thumb'            => 'true',
 				'thumb_width'      => '120',

@@ -7,6 +7,7 @@ if ( !function_exists( 'shortcode_roundabout' ) ) {
 		extract( shortcode_atts( array(
 			'title'            => '',
 			'num'              => '3',
+			'numb'						 => '3',
 			'type'             => '',
 			'thumb_width'      => '375',
 			'thumb_height'     => '250',
