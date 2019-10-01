@@ -9,6 +9,8 @@ if (!function_exists('mini_posts_grid_shortcode')) {
 			'type'         => 'post',
 			'category'         => '',
 			'custom_category'  => '',
+			'order'						 => '',
+			'order_by'				 => '',
 			'numb'         => '8',
 			'thumbs'       => '',
 			'thumb_width'  => '',

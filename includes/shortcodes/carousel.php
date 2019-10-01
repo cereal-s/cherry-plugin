@@ -8,6 +8,8 @@ if ( !function_exists('shortcode_carousel') ) {
 			'title'            => '',
 			'num'              => 8,
 			'numb'						 => 8,
+			'order'						 => '',
+			'order_by'				 => '',
 			'type'             => 'post',
 			'thumb'            => 'true',
 			'thumb_width'      => 220,

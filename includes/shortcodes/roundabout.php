@@ -13,6 +13,8 @@ if ( !function_exists( 'shortcode_roundabout' ) ) {
 			'thumb_height'     => '250',
 			'category'         => '',
 			'custom_category'  => '',
+			'order'						 => '',
+			'order_by'				 => '',
 			'more_button_text' => '',
 			'more_button_link' => '',
 			'custom_class'     => '',

@@ -7,6 +7,8 @@ if (!function_exists('shortcode_recent_posts')) {
 				'type'             => 'post',
 				'category'         => '',
 				'custom_category'  => '',
+				'order'						 => '',
+				'order_by'				 => '',
 				'tag'              => '',
 				'custom_tag'       => '',
 				'post_format'      => 'standard',

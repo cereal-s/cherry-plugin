@@ -17,6 +17,8 @@ if (!function_exists('shortcode_post_cycle')) {
 				'more_text_single' => __('Read more', CHERRY_PLUGIN_DOMAIN),
 				'category'         => '',
 				'custom_category'  => '',
+				'order'						 => '',
+				'order_by'				 => '',
 				'excerpt_count'    => '15',
 				'pagination'       => 'true',
 				'navigation'       => 'true',
@@ -57,7 +59,7 @@ if (!function_exists('shortcode_post_cycle')) {
 			$suppress_filters = get_option('suppress_filters');
 			$args = require_once __DIR__ . '/args.php';
 
-			$args['orderby'] = 'post_date';
+			$args['order_by'] = 'post_date';
 			$args['order'] 	 = 'DESC';
 
 			$latest = get_posts($args);

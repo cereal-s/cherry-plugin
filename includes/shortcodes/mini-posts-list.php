@@ -10,6 +10,8 @@ if (!function_exists('mini_posts_list_shortcode')) {
 			'type'          => 'post',
 			'category'			=> '',
 			'custom_category'  => '',
+			'order'						 => '',
+			'order_by'				 => '',
 			'numb'          => '3',
 			'thumbs'        => '',
 			'thumb_width'   => '',
