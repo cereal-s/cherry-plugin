@@ -19,7 +19,10 @@ if (!function_exists('mini_posts_grid_shortcode')) {
 			'order_by'     => 'date',
 			'order'        => 'DESC',
 			'align'        => '',
-			'custom_class' => ''
+			'custom_class' => '',
+			'tag'							 => '',
+			'tags'						 => '',
+			'custom_tag'			 => ''
 		), $atts));
 
 		$template_url = get_stylesheet_directory_uri();

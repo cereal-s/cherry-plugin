@@ -18,6 +18,9 @@ if ( !function_exists( 'shortcode_roundabout' ) ) {
 			'more_button_text' => '',
 			'more_button_link' => '',
 			'custom_class'     => '',
+			'tag'							 => '',
+			'tags'						 => '',
+			'custom_tag'			 => ''
 		), $atts ) );
 
 		wp_enqueue_script( 'roundabout_script', CHERRY_PLUGIN_URL . 'lib/js/roundabout/jquery.roundabout.min.js', array( 'jquery' ), '1.0' );

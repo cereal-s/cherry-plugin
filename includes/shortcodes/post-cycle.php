@@ -22,7 +22,10 @@ if (!function_exists('shortcode_post_cycle')) {
 				'excerpt_count'    => '15',
 				'pagination'       => 'true',
 				'navigation'       => 'true',
-				'custom_class'     => ''
+				'custom_class'     => '',
+				'tag'							 => '',
+				'tags'						 => '',
+				'custom_tag'			 => ''
 		), $atts));
 
 		$type_post         = $type;

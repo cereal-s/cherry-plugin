@@ -23,7 +23,10 @@ if ( !function_exists('shortcode_carousel') ) {
 			'comments'         => '',
 			'min_items'        => 3,
 			'spacer'           => 18,
-			'custom_class'     => ''
+			'custom_class'     => '',
+			'tag'							 => '',
+			'tags'						 => '',
+			'custom_tag'			 => ''
 		), $atts) );
 
 		switch ( strtolower( str_replace(' ', '-', $type) ) ) {

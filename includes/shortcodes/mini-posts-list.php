@@ -20,7 +20,10 @@ if (!function_exists('mini_posts_list_shortcode')) {
 			'order_by'      => '',
 			'order'         => '',
 			'excerpt_count' => '0',
-			'custom_class'  => ''
+			'custom_class'  => '',
+			'tag'							 => '',
+			'tags'						 => '',
+			'custom_tag'			 => ''
 		), $atts));
 
 		$template_url = get_template_directory_uri();
