@@ -1,10 +1,10 @@
 <?php
 /*
 	Plugin Name: Cherry Plugin
-	Version: 1.2.8.2
-	Plugin URI: https://github.com/CherryFramework/cherry-plugin
-	Description: Cherry team has already created a Cherry framework that can be reasonably called perfect, but we are always looking for more improvements. Meet the Cherry Plugin. This is an extension for our Cherry framework where we've included all shortcodes and widgets you will ever need. The plugin is fully compatible with any WordPress theme powered by Cherry Framework. So far the plugin is a beta release, but we're going to keep on improving it, to deliver even more cool features.
-	Author: Cherry Team
+	Version: 1.2.8.3
+	Plugin URI: https://github.com/cereal-s/cherry-plugin
+	Description: This is a fork of the Cherry Plugin created from the Cherry framework. This is an extension for our Cherry framework where we've included all shortcodes and widgets you will ever need. So far the plugin is a beta release.
+	Author: Giuseppe Marcelli aka zeroconf from a fork of the Cherry Team work
 	Author URI: http://www.cherryframework.com/
 	Text Domain: cherry-plugin
 	Domain Path: languages/
