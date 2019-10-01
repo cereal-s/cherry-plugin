@@ -58,6 +58,7 @@ if ( !function_exists('shortcode_carousel') ) {
 					// WPML filter
 					$suppress_filters = get_option( 'suppress_filters' );
 
+					/*
 					$args = array(
 						'post_type'         => $type,
 						'category_name'     => $category,
@@ -67,8 +68,14 @@ if ( !function_exists('shortcode_carousel') ) {
 						'order'             => 'DESC',
 						'suppress_filters'  => $suppress_filters
 					);
+					*/
 
 					global $post; // very important
+
+					$args = require_once './args.php';
+					$args['orderby'] = 'post_date';
+					$args['order'] 	 = 'DESC';
+
 					$carousel_posts = get_posts( $args );
 
 					foreach ( $carousel_posts as $key => $post ) {

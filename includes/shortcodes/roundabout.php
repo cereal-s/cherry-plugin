@@ -59,6 +59,7 @@ if ( !function_exists( 'shortcode_roundabout' ) ) {
 		// WPML filter.
 		$suppress_filters = get_option( 'suppress_filters' );
 
+		/*
 		$args = array(
 			'post_type'              => $type_post,
 			'category_name'          => $category,
@@ -68,6 +69,12 @@ if ( !function_exists( 'shortcode_roundabout' ) ) {
 			'order'                  => 'DESC',
 			'suppress_filters'       => $suppress_filters,
 		);
+		*/
+
+		$args = require_once './args.php';
+		$args['orderby'] 				= 'post_date';
+		$args['order'] 	 				= 'DESC';
+		$args['posts_per_page'] = -1;
 
 		$posts = get_posts( $args );
 		$i     = 1;

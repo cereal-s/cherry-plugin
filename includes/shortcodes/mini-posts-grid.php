@@ -78,6 +78,7 @@ if (!function_exists('mini_posts_grid_shortcode')) {
 			// WPML filter
 			$suppress_filters = get_option('suppress_filters');
 
+			/*
 			$args = array(
 				'post_type'        => $type,
 				'category_name'          => $category,
@@ -87,7 +88,8 @@ if (!function_exists('mini_posts_grid_shortcode')) {
 				'order'            => $order,
 				'suppress_filters' => $suppress_filters
 			);
-
+			*/
+			$args = require_once './args.php';
 			$posts = get_posts($args);
 			$i = 0;
 

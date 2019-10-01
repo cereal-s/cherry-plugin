@@ -53,8 +53,10 @@ if (!function_exists('posts_list_shortcode')) {
 		global $_wp_additional_image_sizes;
 
 		// WPML filter
-			$suppress_filters = get_option('suppress_filters');
+		$suppress_filters = get_option('suppress_filters');
 
+		// Old implementation
+		/*
 		$args = array(
 			'post_type'        => $type,
 			'tag'              => $tag,
@@ -63,6 +65,9 @@ if (!function_exists('posts_list_shortcode')) {
 			'order'            => $order,
 			'suppress_filters' => $suppress_filters
 		);
+		*/
+
+		$args = require_once './args.php';
 
 		$posts = get_posts($args);
 		$i = 0;

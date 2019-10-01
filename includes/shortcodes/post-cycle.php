@@ -55,16 +55,10 @@ if (!function_exists('shortcode_post_cycle')) {
 
 			// WPML filter
 			$suppress_filters = get_option('suppress_filters');
+			$args = require_once './args.php';
 
-			$args = array(
-				'post_type'              => $type_post,
-				'category_name'          => $category,
-				$type_post . '_category' => $custom_category,
-				'numberposts'            => $num,
-				'orderby'                => 'post_date',
-				'order'                  => 'DESC',
-				'suppress_filters'       => $suppress_filters
-			);
+			$args['orderby'] = 'post_date';
+			$args['order'] 	 = 'DESC';
 
 			$latest = get_posts($args);
 
