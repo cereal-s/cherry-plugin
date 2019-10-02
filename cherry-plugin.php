@@ -3,7 +3,7 @@
 	Plugin Name: Cherry Plugin
 	Version: 1.2.8.3
 	Plugin URI: https://github.com/cereal-s/cherry-plugin
-	Description: This is a fork of the Cherry Plugin created from the Cherry framework. It changes the type of posts shown by the shortcodes, project pages instead of classic posts. ORIGINAL CONTENT - Cherry team has already created a Cherry framework that can be reasonably called perfect, but we are always looking for more improvements. Meet the Cherry Plugin. This is an extension for our Cherry framework where we've included all shortcodes and widgets you will ever need. The plugin is fully compatible with any WordPress theme powered by Cherry Framework. So far the plugin is a beta release, but we're going to keep on improving it, to deliver even more cool features.
+	Description: This is a fork of the Cherry Plugin created from the Cherry framework. It changes the type of posts shown by the shortcodes, project pages from the CMSMasters suite instead of classic posts. ORIGINAL CONTENT - Cherry team has already created a Cherry framework that can be reasonably called perfect, but we are always looking for more improvements. Meet the Cherry Plugin. This is an extension for our Cherry framework where we've included all shortcodes and widgets you will ever need. The plugin is fully compatible with any WordPress theme powered by Cherry Framework. So far the plugin is a beta release, but we're going to keep on improving it, to deliver even more cool features.
 	Author: Cherry Team
 	Author URI: http://www.cherryframework.com/
 	Text Domain: cherry-plugin

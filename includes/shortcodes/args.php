@@ -6,14 +6,14 @@
  *
  * Posts, pages, projects pages in WordPress are always items
  * of the wp_posts table, so here I'm changing the query to
- * match some posts created through the Project Pages plugin.
+ * match some posts created through the Project Pages plugin from CMSMasters.
  * Steps:
  *
  *  - changed post_type from $type to an hardcoded value 'projectpage'
  *  - commented out the 'tag' key
  *  - added the 'tax_query' to query the project pages (the plugin)
  *    
- * For more info see: https://wordpress.org/plugins/project-pages/
+ * For more info see: https://cmsmasters.net
  */
 
 return array(
