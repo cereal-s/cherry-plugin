@@ -17,19 +17,12 @@
  */
 
 return array(
-  'post_type'         => 'projectpage',
+  'post_type'         => 'project',
   'category_name'     => $category,
   $type . '_category' => $custom_category,
-  //'tag'               => $tag,
+  'pj-tags'           => $tag,
   'numberposts'       => $numb,
   'orderby'           => $order_by,
   'order'             => $order,
-  'suppress_filters'  => $suppress_filters,
-  'tax_query' => array(
-    array(
-      'taxonomy' => 'projectpagetag',
-      'field'    => 'slug',
-      'terms'    => $tag,
-    )
-  )
+  'suppress_filters'  => $suppress_filters
 );
