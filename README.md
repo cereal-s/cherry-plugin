@@ -5,7 +5,7 @@ Cherry Plugin contains all shortcodes and widgets used in Cherry Framework. Also
 
 #### v1.2.8.3 ####
 
-* ADD: changing types of posts selected by the shortcodes, from post to projectpage, see: https://wordpress.org/plugins/project-pages/
+* ADD: changing types of posts selected by the shortcodes, from post to projectpage, see: https://cmsmasters.net/
 
 #### v1.2.8.2 ####
 
